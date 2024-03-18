@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NgeResep</string>
+    <string name="heroes_name">Nama Masakan</string>
+    <string name="description">Deskripsi</string>
+    <string name="profile">Profile</string>
+    <string name="nama">Farel Yuda Pratama</string>
+    <string name="email">farelyudapratama51@gmail.com</string>
+    <string name="bahan_bahan">Bahan - bahan</string>
+    <string name="bumbu">Bumbu :</string>
+    <string name="langkah_langkah">Langkah-langkah :</string>
+</resources>
