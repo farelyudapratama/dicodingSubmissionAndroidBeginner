@@ -19,6 +19,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.yuch.ngeresep.model.UserData.user
 import com.yuch.ngeresep.ui.navigation.NavigationItem
 import com.yuch.ngeresep.ui.navigation.Screen
 import com.yuch.ngeresep.ui.screen.HomeScreen
@@ -42,7 +43,7 @@ fun NgeresepApp ( modifier: Modifier = Modifier,
                 HomeScreen()
             }
             composable(Screen.Profile.route) {
-                ProfileScreen()
+                ProfileScreen(user = user)
             }
         }
     }

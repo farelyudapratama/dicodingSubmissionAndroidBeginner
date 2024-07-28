@@ -8,6 +8,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import com.yuch.ngeresep.R
+import com.yuch.ngeresep.model.RecipeData
+import com.yuch.ngeresep.ui.components.RecipeList
 
 @Composable
 fun HomeScreen(
@@ -17,6 +19,9 @@ fun HomeScreen(
         modifier = modifier.fillMaxSize(),
         contentAlignment = Alignment.Center,
     ) {
-        Text(stringResource(R.string.menu_home))
+        RecipeList(
+            recipeList = RecipeData.recipes,
+            onClick = { }
+        )
     }
 }
